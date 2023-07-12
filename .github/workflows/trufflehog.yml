@@ -22,4 +22,4 @@ jobs:
       continue-on-error: false
       run: |
        docker run -v "$(pwd):/workdir" -i --rm trufflesecurity/trufflehog:latest git file:///workdir --max-depth 10 --only-verified --fail
-     
+   
